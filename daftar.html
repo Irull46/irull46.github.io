@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Belajar Desain CorelDRAW dan Photoshop">
+    <meta name="keywords" content="Desain, CorelDRAW, Photoshop">
+    <meta name="author" content="Khairul Anam">
+    <title>Daftar - irulldesign.com</title>
+    <link href="logosaya/irulldesign.png" rel="shortcut icon">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <style>
+        .marginNav {
+            margin-left: 68%;
+        }
+        nav {
+            position: fixed;
+            transition: all .3s;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, .1);
+        }
+        .dropdown-item:hover {
+            background-color: #198754;
+        }
+        a.menu:after, .dropdown-toggle:after {
+            content: none;
+        }
+        .dropdown:hover>.dropdown-menu {
+            display: block;
+        }
+        .form-signup {
+            width: 100%;
+            max-width: 360px;
+            margin: 105px auto 0;
+        }
+        .form-signup .form-control {
+            position: relative;
+            box-sizing: border-box;
+            height: auto;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .form-signup input[id="nama_d"] {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        .form-signup input[id="nama_b"] {
+            border-top-left-radius: 0;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        .form-signup input[id="nama_b"] {
+            border-top-left-radius: 0;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        .form-signup input[id="alamat"] {
+            border-radius: 0;
+        }
+        .form-signup select {
+            border-radius: 0;
+        }
+        .form-signup input[id="email"] {
+            border-radius: 0;
+        }
+        .form-signup input[id="user"] {
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        .form-signup input[id="pass"] {
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">
+                    <img src="logosaya/irulldesign.png" width="30" height="30" class="d-inline-block align-top">
+                    IrullDesign
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fw-bold marginNav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="daftar.html">Daftar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="masuk.html">Masuk</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="kelas.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kelas</a>
+                            <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="coreldraw.html">CorelDRAW</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="photoshop.html">Photoshop</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bantuan.html">Bantuan</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="text-center form-signup">
+        <form name="form" method="POST">
+            <img src="logosaya/irulldesign.png" width="55" height="55" class="mb-4">
+            <h1 class="h3 mb-3 fw-normal">Form pendaftaran</h1>
+            <div class="row g-1 mb-1">
+                <div class="col">
+                    <label for="nama_d" class="visually-hidden">Nama Depan</label>
+                    <input type="text" id="nama_d" class="form-control" placeholder="Nama Depan">
+                </div>
+                <div class="col">
+                    <label for="nama_b" class="visually-hidden">Nama Belakang</label>
+                    <input type="text" id="nama_b" class="form-control" placeholder="Nama Belakang">
+                </div>
+            </div>
+
+            <label for="alamat" class="visually-hidden">Alamat</label>
+            <input type="text" id="alamat" class="form-control mb-1" placeholder="Alamat">
+
+            <div class="row g-1 mb-1">
+                <div class="col">
+                    <select class="form-select form-control">
+                        <option selected>Pilih Kabupaten</option>
+                        <option>Sumenep</option>
+                        <option>Pamekasan</option>
+                        <option>Sampang</option>
+                        <option>Bangkalan</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select class="form-select form-control">
+                        <option selected>Pilih Kelas</option>
+                        <option>CorelDRAW</option>
+                        <option>Photoshop</option>
+                    </select>
+                </div>
+            </div>
+
+            <label for="email" class="visually-hidden">Email</label>
+            <input type="email" id="email" class="form-control mb-1" placeholder="Email">
+
+            <div class="row g-1 mb-4">
+                <div class="col">
+                    <label for="user" class="visually-hidden">Username</label>
+                    <input type="text" id="user" class="form-control" placeholder="Username">
+                </div>
+                <div class="col">
+                    <label for="pass" class="visually-hidden">Password</label>
+                    <input type="password" id="pass" class="form-control" placeholder="Password">
+                </div>
+            </div>
+            <button class="w-100 btn btn-lg btn-success" type="submit" onclick="daftar()">Daftar</button>
+        </form>
+    </main>
+
+    <footer>
+        <br><br><br>
+        <p class="text-muted" style="text-align:center;">&copy; 2021. irulldesign.com</p>
+    </footer>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script>
+        var scroll1 = window.pageYOffset;
+        window.onscroll = function() {
+            var scroll2 = window.pageYOffset;
+            if (scroll1 > scroll2) {
+                document.querySelector('nav').style.top = "0";
+            }else{
+                document.querySelector('nav').style.top = "-100px";
+            }
+            scroll1 = scroll2;
+        }
+    </script>
+</body>
+</html>

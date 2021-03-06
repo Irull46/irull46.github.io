@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Belajar Desain CorelDRAW dan Photoshop">
+    <meta name="keywords" content="Desain, CorelDRAW, Photoshop">
+    <meta name="author" content="Khairul Anam">
+    <title>Bantuan - irulldesign.com</title>
+    <link href="logosaya/irulldesign.png" rel="shortcut icon">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <style>
+        .marginNav {
+            margin-left: 68%;
+        }
+        nav {
+            position: fixed;
+            transition: all .3s;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, .1);
+        }
+        .dropdown-item:hover {
+            background-color: #198754;
+        }
+        a.menu:after, .dropdown-toggle:after {
+            content: none;
+        }
+        .dropdown:hover>.dropdown-menu {
+            display: block;
+        }
+        .dropdown-item:hover {
+            background-color: #198754;
+        }
+        section {
+            margin-top: 120px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">
+                    <img src="logosaya/irulldesign.png" width="30" height="30" class="d-inline-block align-top">
+                    IrullDesign
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fw-bold marginNav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="daftar.html">Daftar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="masuk.html">Masuk</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="kelas.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kelas</a>
+                            <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="coreldraw.html">CorelDRAW</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="photoshop.html">Photoshop</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="bantuan.html">Bantuan</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h3>Pertanyaan Yang Sering Diajukan</h3><br><br>
+        <h6>Berapa lama pembelajaran berlangsung?</h6>
+        <p>Kelas ini berlangsung selama 1 (satu) bulan, 4 kali pertemuan 6 jam untuk kelas weekend dan 8 kali pertemuan 3 jam untuk kelas weekdays. Jadwal kelas sesuai dengan keterangan di atas.</p><br>
+
+        <h6>Berapakah kuota murid per kelasnya?</h6>
+        <p>Kelas kami bersifat semi-privat, maksimal hanya 6 orang per kelasnya. Dengan sistem belajar praktik langsung mengerjakan project bersama-sama dengan coach, anda juga bisa melakukan diskusi dan studi kasus bersama dengan coach.</p><br>
+
+        <h6>Apakah kelas akan ada setiap bulannya?</h6>
+        <p>Belum tentu, karena tenaga pengajar kami merupakan developer aktif, maka ada kemungkinan pengajar berhalangan karena pekerjaan. Oleh karena itu disarankan untuk segera mengambil seat kelas yang dibuka.</p><br>
+
+        <h6>Apakah saya harus membawa laptop sendiri?</h6>
+        <p>Peserta diharapkan untuk membawa laptop sendiri karena nantinya akan ada beberapa tugas untuk dikerjakan di rumah.</p><br>
+
+        <h6>Apabila saya berhenti di tengah sesi, apakah boleh mengajukan pengembalian uang (refund)?</h6>
+        <p>Biaya yang telah dibayarkan hangus apabila mengundurkan diri dengan alasan apapun</p><br>
+
+        <h6>Bagaimana jika pembelajaran sudah selesai dan saya masih belum paham?</h6>
+        <p>Apabila setelah mengikuti semua sesi yang ada peserta masih merasa kurang paham, maka peserta boleh melakukan re-coaching di batch-batch berikutnya secara gratis tanpa dikenakan biaya apapun dengan syarat peserta mengerjakan semua tugas atau mini-project yang diberikan oleh coach. Peserta juga mendapatkan fasilitas konsultasi gratis baik secara online maupun offline terkait dengan materi dan tugas yang diberikan selama kelas berlangsung dan sesudah kelas selesai.</p><br>
+
+        <h6>Apa yang dimaksud dengan fasilitas konsultasi gratis dengan coachnya?</h6>
+        <p>Khusus untuk peserta kursus Onetwocode Indonesia, kami memberikan fasilitas konsultasi gratis terkait dengan materi yang dipelajari. Konsultasi bisa dilakukan baik dengan tatap muka (terlebih dahulu membuat jadwal dengan coachnya) maupun via WhatsApp (melalui grup alumni).</p><br>
+    </section>
+
+    <footer>
+        <p class="text-muted" style="text-align:center;">&copy; 2021. irulldesign.com</p>
+    </footer>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script>
+        var scroll1 = window.pageYOffset;
+        window.onscroll = function() {
+            var scroll2 = window.pageYOffset;
+            if (scroll1 > scroll2) {
+                document.querySelector('nav').style.top = "0";
+            }else{
+                document.querySelector('nav').style.top = "-100px";
+            }
+            scroll1 = scroll2;
+        }
+    </script>
+</body>
+</html>
