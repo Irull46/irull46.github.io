@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://irull46.github.io/irulldesign/">
-    <img src="https://github.com/Irull46/irulldesign/blob/main/logosaya/irulldesign.png" alt="Irull Design logo" width="165" height="165">
+    <img src="https://github.com/Irull46/irulldesign/blob/main/logosaya/irulldesign.png" alt="Irull Design logo" width="140">
   </a>
 </p>
 
